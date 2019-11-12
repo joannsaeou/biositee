@@ -17,6 +17,7 @@ html {
 
 
 body {
+   
     margin: 0;
     width: 400px;
     float: left;
@@ -38,6 +39,7 @@ body {
 
 
 #wrap {
+
     width: 850px;
     margin: 0 auto;
     background: #675c47;
@@ -48,10 +50,10 @@ body {
 
 #header {
 
-
+    background-image: url(images/coffee-theme-background-coffee-wallpapers-high-quality-download-free_c_17117-14.jpg);
     height: 108px;
     background-color: #675c47;
-    margin: 10px;
+    margin: 10px solid brown;
 
 
 }
@@ -59,7 +61,7 @@ body {
 
 h1 {
     margin: 0;
-    color: #675c47;
+    color: black;
     opacity: 1.0;
     padding: 0px 10px 10px 10px 10px;
 
@@ -168,13 +170,15 @@ caption,
 th,
 td {
     background-color: #675c47;
-    background-image: url(./images/Rice%20and%20soup.gif);
+    background-image: url(images/coffeetheme.jpg);
     opacity: 0.85;
     color: #efe5d0;
 }
 
 caption {
-    color: #675c47;
+background-image: url(images/coffeetheme.jpg);
+    background-repeat: round;
+    color: black;
 }
 
 
@@ -182,6 +186,7 @@ caption {
 
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
+    background-image: url(images/coffee-theme-background-coffee-wallpapers-high-quality-download-free_c_17117-14.jpg);
   background-color: #675c47;
   overflow: hidden;
   position: fixed;
